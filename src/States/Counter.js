@@ -11,15 +11,11 @@ function Counter(props) {
     let incrementCount= () => {
         setCount((prevcount)=>prevcount+1)
     }
-    let decrementCount = () => {
-        setCount((prevcount)=>prevcount-1)
-    }
     
     return (
         <div>
             <button onClick={incrementCount}>+</button>
-           <h1> <span>{count}</span> </h1>
-            <button onClick={decrementCount}>-</button>
+          
         </div>
     );
 }

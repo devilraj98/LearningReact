@@ -15,13 +15,12 @@ import './index.css';
 //import ListAndKeys from './ListAndKeys/ListAndKeys';
 //import LifeCycleMethod from './LifeCycleMethod/LifeCycleMethod';
 //import UseStateHook from './Hooks/UseStateHook';
-import UseReducerHook from './Hooks/UseReducerHook'
-
+//import UseReducerHook from './Hooks/UseReducerHook'
+import UseEffectHook from './Hooks/UseEffectHook';
 
 import reportWebVitals from './reportWebVitals';
 
-// const name  = "Neeraj"
-// const element =<h1>My name is {name}</h1>
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -29,7 +28,7 @@ ReactDOM.render(
   
 
 
- <UseReducerHook/>
+ <UseEffectHook />
  
 
 
